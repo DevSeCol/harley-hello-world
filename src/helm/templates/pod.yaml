@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: example-pod
+spec:
+  containers:
+  - name: alpine-crt
+    image: alpine
+    command: ["/bin/sh","-c"]
+    args: ["echo Greetings from {{ .Values.country }}"]

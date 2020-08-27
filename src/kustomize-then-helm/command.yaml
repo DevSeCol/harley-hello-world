@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: example-pod
+spec:
+  containers:
+  - name: alpine-crt
+    args: ["echo Hi! welcome to {{ .Values.country }}, my name is {{ .Values.person }}"]

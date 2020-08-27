@@ -1,0 +1,4 @@
+commonLabels:
+  app: hello-pod
+resources:
+- pod-base.yaml

@@ -1,0 +1,8 @@
+bases:
+- ../../base
+namespace: ricardo-testing
+patchesStrategicMerge:
+- service-loadbalancer.yaml
+- deployment-replicaset.yaml
+resources:
+  - namespace.yaml

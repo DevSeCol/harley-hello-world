@@ -1,0 +1,5 @@
+bases:
+- ../../base
+namespace: "ricardo-development"
+resources:
+  - namespace.yaml

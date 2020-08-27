@@ -1,0 +1,5 @@
+resources:
+- nginx-deployment.yaml
+- nginx-service.yaml
+images:
+- name: nginx
